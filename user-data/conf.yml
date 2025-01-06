@@ -58,5 +58,25 @@ sections:
   - title: Plex
     description: Video Manager
     url: https://plex.laysan.biz
-    icon: https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg
+    icon: favicon
+
+  - title: Gitlab
+    description: Code Manager
+    url: https://gitlab.laysan.biz
+    icon: favicon
+
+  - title: Minio
+    description: Object Manager
+    url: https://oss.laysan.biz
+    icon: favicon
+
+  - title: qBittorrent
+    description: PT Manager
+    url: https://pt.laysan.biz
+    icon: favicon
+
+  - title: NextCloud
+    description: NextCloud Manager
+    url: https://nc.laysan.biz
+    icon: favicon
     

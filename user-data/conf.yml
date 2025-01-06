@@ -12,6 +12,12 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   theme: material-dark
+  defaultOpeningMethod: newtab
+  hideComponents:
+    hideSettings: true
+    hideFooter: true
+    hideSearch: true
+
 
 # Main content - An array of sections, each containing an array of items
 sections:
@@ -22,34 +28,34 @@ sections:
     description: Laysan'sBlog
     icon: favicon
     url: https://laysan.site/
-    target: newtab
+    
   - title: GitHub
     description: Source Code, Issues and Pull Requests
     icon: favicon
     url: https://github.com/lslvxy
-    target: newtab
+    
   - title: PVE
     description: Promox
     icon: https://pve.proxmox.com/mediawiki/resources/assets/proxmox_logo.png
     url: https://pve.laysan.biz
-    target: newtab
+    
   - title: Vaultwarden
     description: Password Manager
     icon: https://raw.githubusercontent.com/dani-garcia/vaultwarden/refs/heads/main/resources/vaultwarden-icon.svg
     url: https://vault.laysan.biz
-    target: newtab
+    
   - title: Openwrt
     description: iStoreOS
     url: https://openwrt.laysan.biz/
     icon: https://openwrt.laysan.biz/luci-static/argon/img/argon.svg
-    target: newtab
+    
   - title: Immich
     description: Photo Manager
     url: https://immich.laysan.biz
     icon: https://immich.app/img/logomark-light.svg
-    target: newtab
+    
   - title: Plex
     description: Video Manager
     url: https://plex.laysan.biz
     icon: https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg
-    target: newtab
+    

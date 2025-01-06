@@ -17,6 +17,7 @@ appConfig:
     hideSettings: true
     hideFooter: true
     hideSearch: true
+  disableConfiguration: true
 
 
 # Main content - An array of sections, each containing an array of items
@@ -25,7 +26,7 @@ sections:
   icon: fas fa-rocket
   items:
   - title: Blog
-    description: Laysan'sBlog
+    description: Laysan's Blog
     icon: favicon
     url: https://laysan.site/
     
@@ -35,7 +36,7 @@ sections:
     url: https://github.com/lslvxy
     
   - title: PVE
-    description: Promox
+    description: Promox VE
     icon: https://pve.proxmox.com/mediawiki/resources/assets/proxmox_logo.png
     url: https://pve.laysan.biz
     
